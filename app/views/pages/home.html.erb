@@ -1,2 +1,70 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class='bkg-white'>
+  <div class='intro box top text-center'>
+    <%= image_tag 'boris.jpg', class:'img-circle', style:'width:120px', alt: 'Boris photo'%>
+    <h1>Boris Paillard</h1>
+    <h3>CEO @Le Wagon</h3>
+    <p class='text-justify'>Boris got bored from financial markets and <strong>took the plunge in web-development</strong>. He perfectly understands what beginners need. He founded Le Wagon, and built its site and pedagogical platforms.
+    </p>
+    <a href="" class='btn-red color-white'><strong>more infos >> </strong></a>
+  </div>
+
+  <div class='reso box text-center list-inline'>
+    <ul>
+      <li>
+        <a href="">
+          <i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fa fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fa fa-linkedin"></i></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class='movies box bottom center text-center'>
+    <h3>My favorite movies</h3>
+    <table>
+      <body>
+        <tr>
+          <td><%= image_tag 'space-odyssey.jpg', style:'width:100px',alt: 'space-odyssey cover'%></td>
+          <td>
+            <h4>2001 - Space Odyssey</h4>
+            <p class='text-justify'>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.
+            </p>
+          </td>
+        <tr>
+        </tr>
+          <td><%= image_tag 'monsieur-hulot.jpg', style:'width:100px', alt:'monsieur-hulot cover'%></td>
+          <td>
+            <h4>Monsieur Hulot</h4>
+            <p class='text-justify'>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.
+            </p>
+          </td>
+        <tr>
+        </tr>
+          <td><%= image_tag 'alien.jpg', style:'width:100px', alt: 'alien cover'%></td>
+          <td>
+            <h4>Alien</h4>
+            <p class='text-justify'>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.
+            </p>
+          </td>
+        </tr>
+      </body>
+    </table>
+  </div>
+
+  <div class='about box top right text-center'>
+    <h3>About this page</h3>
+    <p class='text-center'>This page has been coded during the front-end kit @LeWagon <br> and that was probably the best experience during my entire life.
+    </p>
+    <ul class='list-inline'>
+      <li><a href=""><i class="fa fa-heart"></i></a></li>
+      <li><a href=""><i class="fa fa-share"></i></a></li>
+      <li><a href=""><i class="fa fa-star"></i></a></li>
+    </ul>
+  </div>
+</div>

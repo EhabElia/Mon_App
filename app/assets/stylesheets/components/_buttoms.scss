@@ -1,0 +1,16 @@
+.btn-red {
+  background: #DD5555;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.intro a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: #ee8e5e;
+    background: #CB4D4D;
+  }
+}
+
